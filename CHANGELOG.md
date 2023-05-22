@@ -17,4 +17,4 @@ For JSON (not installed):
 todo:
 
 - git remote set-url origin <remote_url>
-- - git remote set-url origin https://github.com/kritydangol/{Project}.git
+- - git remote set-url origin {url}.git
