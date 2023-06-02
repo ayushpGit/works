@@ -79,5 +79,5 @@
 
 <!-- CheatCodes: -->
 <!-- To do done: alt + c || alt + s -->
-<!-- Table of contents: ctrl + shift + p, Create Tareable of Contents -->
+<!-- Table of contents: ctrl + shift + p, Create Table of Contents -->
 <!-- Preview: ctrl + shift + v -->
