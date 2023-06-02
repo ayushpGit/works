@@ -1,20 +1,83 @@
-v1.0.0
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Versions](#versions)
+    - [`v1.0.0`](#v100)
+    - [`v1.0.1`](#v101)
+- [Installed](#installed)
+    - [`Routes`](#routes)
+    - [`Icons`](#icons)
+    - [`Installation Warehouse`](#installation-warehouse)
+- [Todo:](#todo)
 
+---
+
+# Versions
+
+### `v1.0.0`
 - Initiated changelog file for frontend.
+- Set up completed
 
-v1.0.1
+### `v1.0.1`
+- 
 
-- set up completed
-- installed: npm i react-router-dom | for: Routing
-- installed: npm i react-icons | for: icons | link: https://www.npmjs.com/package/react-icons
+---
 
-For JSON (not installed):
 
-- installed: npm install -g json-server | for: JSON Server | link: https://github.com/typicode/json-server
-- for json server: npx json-server --watch db.json --port 8000
-- installed: npm i react-indiana-drag-scroll | for: drag: home-cyber security | link: https://www.npmjs.com/package/react-indiana-drag-scroll
+# Installed
 
-todo:
+###  `Routes`
 
-- git remote set-url origin <remote_url>
-- - git remote set-url origin {url}.git
+- `installed`: npm i react-router-dom
+- `usage`: import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
+- `link`: https://www.npmjs.com/package/react-router-dom
+
+
+### `Icons`
+
+- `installed`: npm i react-icons
+- `usage`: import { FiInstagram } from "react-icons/fi";
+- `link`: https://www.npmjs.com/package/react-icons
+
+
+### `Installation Warehouse`
+```
+#### `For JSON:`
+
+- `installed`: npm install -g json-server
+- `for`: JSON Server
+- `link`: https://github.com/typicode/json-server
+- `for json server`: npx json-server --watch db.json --port 8000
+
+
+#### `Tailwindcss`
+
+- `installed`: npm i tailwindcss
+- `installed`: npx tailwindcss init
+- `link`: https://www.npmjs.com/package/tailwindcss?activeTab=versions
+
+
+####  `GitHub Pages`
+- `installed`: npm install gh-pages --save-dev
+- `usage`: npm run deploy || npm run deploy -- -m "Deploy React app to GitHub Pages" 
+- `link`: https://github.com/gitname/react-gh-pages
+
+
+### `Sliding menu`
+
+- `installed`: npm i react-flexible-sliding-menu 
+- `usage`: **toggle button** | **ham menu** | **index.js**
+- `link`: https://www.npmjs.com/package/react-flexible-sliding-menu
+- `link`: https://react-flexible-sliding-menu.netlify.app/example/react-router
+
+```
+---
+
+# Todo:
+- [ ] `to change GitHub repository:` git remote set-url origin <remote_url>.git
+
+
+
+<!-- CheatCodes: -->
+<!-- To do done: alt + c || alt + s -->
+<!-- Table of contents: ctrl + shift + p, Create Tareable of Contents -->
+<!-- Preview: ctrl + shift + v -->
