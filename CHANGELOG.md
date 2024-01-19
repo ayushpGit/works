@@ -41,7 +41,7 @@
 
 ### `Installation Warehouse`
 ```
-#### `For JSON:`
+### `For JSON:`
 
 - `installed`: npm install -g json-server
 - `for`: JSON Server
@@ -49,14 +49,14 @@
 - `for json server`: npx json-server --watch db.json --port 8000
 
 
-#### `Tailwindcss`
+### `Tailwindcss`
 
 - `installed`: npm i tailwindcss
 - `installed`: npx tailwindcss init
 - `link`: https://www.npmjs.com/package/tailwindcss?activeTab=versions
 
 
-####  `GitHub Pages`
+###  `GitHub Pages`
 - `installed`: npm install gh-pages --save-dev
 - `usage`: npm run deploy || npm run deploy -- -m "Deploy React app to GitHub Pages" 
 - `link`: https://github.com/gitname/react-gh-pages
@@ -69,11 +69,24 @@
 - `link`: https://www.npmjs.com/package/react-flexible-sliding-menu
 - `link`: https://react-flexible-sliding-menu.netlify.app/example/react-router
 
+### `Slider Carousel`
+
+- `installed`: npm install react-slick slick-carousel
+- `usage`: import Slider from "react-slick"; import "~slick-carousel/slick/slick.css"; import "~slick-carousel/slick/slick-theme.css";
+- `link`: https://react-slick.neostack.com/docs/get-started
+
+### `Axios`
+
+- `installed`: npm i axios
+- `usage`: import axios from 'axios';
+- `link`: https://www.npmjs.com/package/axios
+
 ```
 ---
 
 # Todo:
 - [ ] `to change GitHub repository:` git remote set-url origin <remote_url>.git
+- [ ] change title, description in public > index.html
 
 
 
