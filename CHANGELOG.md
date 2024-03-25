@@ -6,6 +6,7 @@
 - [Installed](#installed)
     - [`Routes`](#routes)
     - [`Icons`](#icons)
+    - [`Tailwindcss`](#tailwindcss)
     - [`Installation Warehouse`](#installation-warehouse)
 - [Todo:](#todo)
 
@@ -38,6 +39,12 @@
 - `usage`: import { FiInstagram } from "react-icons/fi";
 - `link`: https://www.npmjs.com/package/react-icons
 
+### `Tailwindcss`
+
+- `installed`: npm i tailwindcss
+- `installed`: npx tailwindcss init
+- `link`: https://www.npmjs.com/package/tailwindcss?activeTab=versions
+
 
 ### `Installation Warehouse`
 ```
@@ -48,12 +55,6 @@
 - `link`: https://github.com/typicode/json-server
 - `for json server`: npx json-server --watch db.json --port 8000
 
-
-### `Tailwindcss`
-
-- `installed`: npm i tailwindcss
-- `installed`: npx tailwindcss init
-- `link`: https://www.npmjs.com/package/tailwindcss?activeTab=versions
 
 
 ###  `GitHub Pages`
