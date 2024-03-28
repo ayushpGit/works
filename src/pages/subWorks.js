@@ -19,7 +19,7 @@ const SubWorks = () => {
   return (
     <>
       <div className="p-5">
-        <a href="/">
+        <a href="/works">
           <FaArrowLeft />
           &nbsp;go back
         </a>
