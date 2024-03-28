@@ -5,8 +5,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Cards = ({ workItems }) => {
   return (
     <div className="works-cards row">
-      {workItems.map((workItem) => (
-        <Link to={`/works/${workItem.id}`} className="col-md-6">
+      {workItems.map((workItem, index) => (
+        <Link key={index} to={`/works/${workItem.id}`} className="col-md-6">
           <div className="works-card">
             <img
               className="works-card-img"

@@ -1,17 +1,16 @@
 import React from "react";
-import Nav from "../components/nav";
+// import Nav from "../components/nav";
 import Cards from "../components/works/cards";
 import useFetch from "../utils/useFetch";
 
 const Works = () => {
   // const { data: workItems, error } = useFetch("http://localhost:8001/works");
   const { data: workItems, error } = useFetch(
-    "https://cpt-web.ryuuzu.xyz/works"
+    "https://ayushp.com.np/worksapi/worksApi.json"
   );
 
   return (
     <>
-      
       <div className="container pt-5">
         <p className="sub-heading">SELECTED PROJECTS</p>
         <h1 className="heading large" style={{ fontSize: "6rem" }}>
