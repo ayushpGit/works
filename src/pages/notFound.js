@@ -7,7 +7,7 @@ const notFound = () => {
       <div className="notFound">
         <h1>404</h1>
         <p>That page doesnt exist.</p>
-        <Link to="/" className="link-button">
+        <Link to="/works" className="link-button">
           {/* <BsFillArrowLeftCircleFill />&nbsp; */}
           Go Back
         </Link>
