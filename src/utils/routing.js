@@ -7,7 +7,7 @@ import Works from "../pages/works";
 import Playground from "../pages/playground/playground";
 
 import NotFound from "../pages/notFound";
-
+import Home from "../pages/home";
 import ToTop from "./scrollToTop";
 import SubWorks from "../pages/subWorks";
 
@@ -17,6 +17,7 @@ const Routing = () => {
       <ToTop />
 
       <Routes>
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/works" element={<Works />} />
         <Route exact path="/works/:id" element={<SubWorks />} />
 
