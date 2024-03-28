@@ -7,6 +7,7 @@
     - [`Routes`](#routes)
     - [`Icons`](#icons)
     - [`Tailwindcss`](#tailwindcss)
+    - [`GitHub Pages`](#github-pages)
     - [`Installation Warehouse`](#installation-warehouse)
 - [Todo:](#todo)
 
@@ -45,6 +46,12 @@
 - `installed`: npx tailwindcss init
 - `link`: https://www.npmjs.com/package/tailwindcss?activeTab=versions
 
+###  `GitHub Pages`
+- `installed`: npm install gh-pages --save-dev
+- `usage`: npm run deploy || npm run deploy -- -m "Deploy React app to GitHub Pages" 
+- `link`: https://github.com/gitname/react-gh-pages
+
+
 
 ### `Installation Warehouse`
 ```
@@ -55,12 +62,6 @@
 - `link`: https://github.com/typicode/json-server
 - `for json server`: npx json-server --watch db.json --port 8000
 
-
-
-###  `GitHub Pages`
-- `installed`: npm install gh-pages --save-dev
-- `usage`: npm run deploy || npm run deploy -- -m "Deploy React app to GitHub Pages" 
-- `link`: https://github.com/gitname/react-gh-pages
 
 
 ### `Sliding menu`
