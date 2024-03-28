@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/works/static/css/main.0a9c6124.css",
-    "main.js": "/works/static/js/main.c157f09f.js",
+    "main.js": "/works/static/js/main.2b6a33c1.js",
     "static/js/787.7514e166.chunk.js": "/works/static/js/787.7514e166.chunk.js",
     "static/media/2023_09_27_Trisara_MockupPerosPizza.jpg": "/works/static/media/2023_09_27_Trisara_MockupPerosPizza.0db843b78358c812bbd6.jpg",
     "static/media/2023_04_12_Mockup2_Hivelaya.jpg": "/works/static/media/2023_04_12_Mockup2_Hivelaya.17da4ca578ec1c0270c2.jpg",
@@ -61,11 +61,11 @@
     "static/media/img.jpg": "/works/static/media/img.3890d7e304c6598f0316.jpg",
     "index.html": "/works/index.html",
     "main.0a9c6124.css.map": "/works/static/css/main.0a9c6124.css.map",
-    "main.c157f09f.js.map": "/works/static/js/main.c157f09f.js.map",
+    "main.2b6a33c1.js.map": "/works/static/js/main.2b6a33c1.js.map",
     "787.7514e166.chunk.js.map": "/works/static/js/787.7514e166.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a9c6124.css",
-    "static/js/main.c157f09f.js"
+    "static/js/main.2b6a33c1.js"
   ]
 }
