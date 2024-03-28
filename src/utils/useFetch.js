@@ -6,15 +6,7 @@ const useFetch = (url) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    var myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
-    myHeaders.append(
-      "Authorization",
-      "Basic " + window.btoa("ocdyv:Octacore@123")
-    );
-    fetch(url, {
-      headers: myHeaders,
-    })
+    fetch(url)
       .then((res) => {
         if (!res.ok) {
           throw Error("Can not fetch data from that resource");

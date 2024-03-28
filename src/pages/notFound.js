@@ -1,17 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const NotFound = () => {
+const notFound = () => {
   return (
-    <div className="h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-9xl">404</h1>
-        <p>This page doesn't seem to exist.</p>
-        <button>
-          <a href="/">Back to Home</a>
-        </button>
+    <>
+      <div className="notFound">
+        <h1>404</h1>
+        <p>That page doesnt exist.</p>
+        <Link to="/" className="link-button">
+          {/* <BsFillArrowLeftCircleFill />&nbsp; */}
+          Go Back
+        </Link>
       </div>
-    </div>
+    </>
   );
 };
 
-export default NotFound;
+export default notFound;

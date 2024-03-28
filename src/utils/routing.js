@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 
-import Home from "../pages/home";
+import Works from "../pages/works";
 
 // for testing
 import Playground from "../pages/playground/playground";
@@ -9,6 +9,7 @@ import Playground from "../pages/playground/playground";
 import NotFound from "../pages/notFound";
 
 import ToTop from "./scrollToTop";
+import SubWorks from "../pages/subWorks";
 
 const Routing = () => {
   return (
@@ -16,7 +17,8 @@ const Routing = () => {
       <ToTop />
 
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Works />} />
+        <Route exact path="/works/:id" element={<SubWorks />} />
 
         <Route exact path="/playground" element={<Playground />} />
 
